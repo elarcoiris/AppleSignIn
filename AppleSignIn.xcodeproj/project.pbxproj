@@ -7,29 +7,34 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		7F5860A623A7235200DFCEBF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F5860A523A7235200DFCEBF /* AppDelegate.swift */; };
-		7F5860A823A7235200DFCEBF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F5860A723A7235200DFCEBF /* SceneDelegate.swift */; };
-		7F5860AA23A7235200DFCEBF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F5860A923A7235200DFCEBF /* ViewController.swift */; };
-		7F5860AD23A7235200DFCEBF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F5860AB23A7235200DFCEBF /* Main.storyboard */; };
-		7F5860B023A7235200DFCEBF /* AppleSignIn.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7F5860AE23A7235200DFCEBF /* AppleSignIn.xcdatamodeld */; };
-		7F5860B223A7235500DFCEBF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7F5860B123A7235500DFCEBF /* Assets.xcassets */; };
-		7F5860B523A7235500DFCEBF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F5860B323A7235500DFCEBF /* LaunchScreen.storyboard */; };
+		7FFBAAC12510D94F00960812 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FFBAAC02510D94F00960812 /* AppDelegate.swift */; };
+		7FFBAAC32510D94F00960812 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FFBAAC22510D94F00960812 /* SceneDelegate.swift */; };
+		7FFBAAC52510D94F00960812 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FFBAAC42510D94F00960812 /* ViewController.swift */; };
+		7FFBAAC82510D94F00960812 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7FFBAAC62510D94F00960812 /* Main.storyboard */; };
+		7FFBAACB2510D94F00960812 /* AppleSignIn.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7FFBAAC92510D94F00960812 /* AppleSignIn.xcdatamodeld */; };
+		7FFBAACD2510D95300960812 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7FFBAACC2510D95300960812 /* Assets.xcassets */; };
+		7FFBAAD02510D95300960812 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7FFBAACE2510D95300960812 /* LaunchScreen.storyboard */; };
+		7FFBAAD92510EA4500960812 /* KeychainItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FFBAAD82510EA4500960812 /* KeychainItem.swift */; };
+		7FFBAADB2510EB7C00960812 /* OnboardingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FFBAADA2510EB7C00960812 /* OnboardingController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		7F5860A223A7235200DFCEBF /* AppleSignIn.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppleSignIn.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		7F5860A523A7235200DFCEBF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		7F5860A723A7235200DFCEBF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		7F5860A923A7235200DFCEBF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		7F5860AC23A7235200DFCEBF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		7F5860AF23A7235200DFCEBF /* AppleSignIn.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = AppleSignIn.xcdatamodel; sourceTree = "<group>"; };
-		7F5860B123A7235500DFCEBF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		7F5860B423A7235500DFCEBF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		7F5860B623A7235500DFCEBF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7FFBAABD2510D94F00960812 /* AppleSignIn.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppleSignIn.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7FFBAAC02510D94F00960812 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7FFBAAC22510D94F00960812 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		7FFBAAC42510D94F00960812 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7FFBAAC72510D94F00960812 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7FFBAACA2510D94F00960812 /* AppleSignIn.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = AppleSignIn.xcdatamodel; sourceTree = "<group>"; };
+		7FFBAACC2510D95300960812 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7FFBAACF2510D95300960812 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7FFBAAD12510D95300960812 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7FFBAAD72510DB5A00960812 /* AppleSignIn.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = AppleSignIn.entitlements; sourceTree = "<group>"; };
+		7FFBAAD82510EA4500960812 /* KeychainItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeychainItem.swift; sourceTree = "<group>"; };
+		7FFBAADA2510EB7C00960812 /* OnboardingController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		7F58609F23A7235200DFCEBF /* Frameworks */ = {
+		7FFBAABA2510D94F00960812 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -39,33 +44,36 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		7F58609923A7235200DFCEBF = {
+		7FFBAAB42510D94F00960812 = {
 			isa = PBXGroup;
 			children = (
-				7F5860A423A7235200DFCEBF /* AppleSignIn */,
-				7F5860A323A7235200DFCEBF /* Products */,
+				7FFBAABF2510D94F00960812 /* AppleSignIn */,
+				7FFBAABE2510D94F00960812 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		7F5860A323A7235200DFCEBF /* Products */ = {
+		7FFBAABE2510D94F00960812 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				7F5860A223A7235200DFCEBF /* AppleSignIn.app */,
+				7FFBAABD2510D94F00960812 /* AppleSignIn.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		7F5860A423A7235200DFCEBF /* AppleSignIn */ = {
+		7FFBAABF2510D94F00960812 /* AppleSignIn */ = {
 			isa = PBXGroup;
 			children = (
-				7F5860A523A7235200DFCEBF /* AppDelegate.swift */,
-				7F5860A723A7235200DFCEBF /* SceneDelegate.swift */,
-				7F5860A923A7235200DFCEBF /* ViewController.swift */,
-				7F5860AB23A7235200DFCEBF /* Main.storyboard */,
-				7F5860B123A7235500DFCEBF /* Assets.xcassets */,
-				7F5860B323A7235500DFCEBF /* LaunchScreen.storyboard */,
-				7F5860B623A7235500DFCEBF /* Info.plist */,
-				7F5860AE23A7235200DFCEBF /* AppleSignIn.xcdatamodeld */,
+				7FFBAAD72510DB5A00960812 /* AppleSignIn.entitlements */,
+				7FFBAAC02510D94F00960812 /* AppDelegate.swift */,
+				7FFBAAC22510D94F00960812 /* SceneDelegate.swift */,
+				7FFBAAC42510D94F00960812 /* ViewController.swift */,
+				7FFBAADA2510EB7C00960812 /* OnboardingController.swift */,
+				7FFBAAD82510EA4500960812 /* KeychainItem.swift */,
+				7FFBAAC62510D94F00960812 /* Main.storyboard */,
+				7FFBAACC2510D95300960812 /* Assets.xcassets */,
+				7FFBAACE2510D95300960812 /* LaunchScreen.storyboard */,
+				7FFBAAD12510D95300960812 /* Info.plist */,
+				7FFBAAC92510D94F00960812 /* AppleSignIn.xcdatamodeld */,
 			);
 			path = AppleSignIn;
 			sourceTree = "<group>";
@@ -73,13 +81,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		7F5860A123A7235200DFCEBF /* AppleSignIn */ = {
+		7FFBAABC2510D94F00960812 /* AppleSignIn */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7F5860B923A7235500DFCEBF /* Build configuration list for PBXNativeTarget "AppleSignIn" */;
+			buildConfigurationList = 7FFBAAD42510D95300960812 /* Build configuration list for PBXNativeTarget "AppleSignIn" */;
 			buildPhases = (
-				7F58609E23A7235200DFCEBF /* Sources */,
-				7F58609F23A7235200DFCEBF /* Frameworks */,
-				7F5860A023A7235200DFCEBF /* Resources */,
+				7FFBAAB92510D94F00960812 /* Sources */,
+				7FFBAABA2510D94F00960812 /* Frameworks */,
+				7FFBAABB2510D94F00960812 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -87,25 +95,25 @@
 			);
 			name = AppleSignIn;
 			productName = AppleSignIn;
-			productReference = 7F5860A223A7235200DFCEBF /* AppleSignIn.app */;
+			productReference = 7FFBAABD2510D94F00960812 /* AppleSignIn.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		7F58609A23A7235200DFCEBF /* Project object */ = {
+		7FFBAAB52510D94F00960812 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1120;
-				LastUpgradeCheck = 1120;
+				LastSwiftUpdateCheck = 1170;
+				LastUpgradeCheck = 1170;
 				ORGANIZATIONNAME = "Inspirare Tech";
 				TargetAttributes = {
-					7F5860A123A7235200DFCEBF = {
-						CreatedOnToolsVersion = 11.2.1;
+					7FFBAABC2510D94F00960812 = {
+						CreatedOnToolsVersion = 11.7;
 					};
 				};
 			};
-			buildConfigurationList = 7F58609D23A7235200DFCEBF /* Build configuration list for PBXProject "AppleSignIn" */;
+			buildConfigurationList = 7FFBAAB82510D94F00960812 /* Build configuration list for PBXProject "AppleSignIn" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -113,56 +121,58 @@
 				en,
 				Base,
 			);
-			mainGroup = 7F58609923A7235200DFCEBF;
-			productRefGroup = 7F5860A323A7235200DFCEBF /* Products */;
+			mainGroup = 7FFBAAB42510D94F00960812;
+			productRefGroup = 7FFBAABE2510D94F00960812 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				7F5860A123A7235200DFCEBF /* AppleSignIn */,
+				7FFBAABC2510D94F00960812 /* AppleSignIn */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		7F5860A023A7235200DFCEBF /* Resources */ = {
+		7FFBAABB2510D94F00960812 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7F5860B523A7235500DFCEBF /* LaunchScreen.storyboard in Resources */,
-				7F5860B223A7235500DFCEBF /* Assets.xcassets in Resources */,
-				7F5860AD23A7235200DFCEBF /* Main.storyboard in Resources */,
+				7FFBAAD02510D95300960812 /* LaunchScreen.storyboard in Resources */,
+				7FFBAACD2510D95300960812 /* Assets.xcassets in Resources */,
+				7FFBAAC82510D94F00960812 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		7F58609E23A7235200DFCEBF /* Sources */ = {
+		7FFBAAB92510D94F00960812 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7F5860AA23A7235200DFCEBF /* ViewController.swift in Sources */,
-				7F5860A623A7235200DFCEBF /* AppDelegate.swift in Sources */,
-				7F5860B023A7235200DFCEBF /* AppleSignIn.xcdatamodeld in Sources */,
-				7F5860A823A7235200DFCEBF /* SceneDelegate.swift in Sources */,
+				7FFBAAC52510D94F00960812 /* ViewController.swift in Sources */,
+				7FFBAAC12510D94F00960812 /* AppDelegate.swift in Sources */,
+				7FFBAADB2510EB7C00960812 /* OnboardingController.swift in Sources */,
+				7FFBAAD92510EA4500960812 /* KeychainItem.swift in Sources */,
+				7FFBAACB2510D94F00960812 /* AppleSignIn.xcdatamodeld in Sources */,
+				7FFBAAC32510D94F00960812 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		7F5860AB23A7235200DFCEBF /* Main.storyboard */ = {
+		7FFBAAC62510D94F00960812 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				7F5860AC23A7235200DFCEBF /* Base */,
+				7FFBAAC72510D94F00960812 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		7F5860B323A7235500DFCEBF /* LaunchScreen.storyboard */ = {
+		7FFBAACE2510D95300960812 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				7F5860B423A7235500DFCEBF /* Base */,
+				7FFBAACF2510D95300960812 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -170,7 +180,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		7F5860B723A7235500DFCEBF /* Debug */ = {
+		7FFBAAD22510D95300960812 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -220,7 +230,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -230,7 +240,7 @@
 			};
 			name = Debug;
 		};
-		7F5860B823A7235500DFCEBF /* Release */ = {
+		7FFBAAD32510D95300960812 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -274,7 +284,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -284,10 +294,11 @@
 			};
 			name = Release;
 		};
-		7F5860BA23A7235500DFCEBF /* Debug */ = {
+		7FFBAAD52510D95300960812 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = AppleSignIn/AppleSignIn.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7PY58KJ7Y2;
 				INFOPLIST_FILE = AppleSignIn/Info.plist;
@@ -295,17 +306,18 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.inspiraretech.AppleSignIn;
+				PRODUCT_BUNDLE_IDENTIFIER = tech.inspirare.AppleSignIn;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		7F5860BB23A7235500DFCEBF /* Release */ = {
+		7FFBAAD62510D95300960812 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = AppleSignIn/AppleSignIn.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7PY58KJ7Y2;
 				INFOPLIST_FILE = AppleSignIn/Info.plist;
@@ -313,7 +325,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.inspiraretech.AppleSignIn;
+				PRODUCT_BUNDLE_IDENTIFIER = tech.inspirare.AppleSignIn;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -323,20 +335,20 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		7F58609D23A7235200DFCEBF /* Build configuration list for PBXProject "AppleSignIn" */ = {
+		7FFBAAB82510D94F00960812 /* Build configuration list for PBXProject "AppleSignIn" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				7F5860B723A7235500DFCEBF /* Debug */,
-				7F5860B823A7235500DFCEBF /* Release */,
+				7FFBAAD22510D95300960812 /* Debug */,
+				7FFBAAD32510D95300960812 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7F5860B923A7235500DFCEBF /* Build configuration list for PBXNativeTarget "AppleSignIn" */ = {
+		7FFBAAD42510D95300960812 /* Build configuration list for PBXNativeTarget "AppleSignIn" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				7F5860BA23A7235500DFCEBF /* Debug */,
-				7F5860BB23A7235500DFCEBF /* Release */,
+				7FFBAAD52510D95300960812 /* Debug */,
+				7FFBAAD62510D95300960812 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -344,17 +356,17 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		7F5860AE23A7235200DFCEBF /* AppleSignIn.xcdatamodeld */ = {
+		7FFBAAC92510D94F00960812 /* AppleSignIn.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				7F5860AF23A7235200DFCEBF /* AppleSignIn.xcdatamodel */,
+				7FFBAACA2510D94F00960812 /* AppleSignIn.xcdatamodel */,
 			);
-			currentVersion = 7F5860AF23A7235200DFCEBF /* AppleSignIn.xcdatamodel */;
+			currentVersion = 7FFBAACA2510D94F00960812 /* AppleSignIn.xcdatamodel */;
 			path = AppleSignIn.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
 /* End XCVersionGroup section */
 	};
-	rootObject = 7F58609A23A7235200DFCEBF /* Project object */;
+	rootObject = 7FFBAAB52510D94F00960812 /* Project object */;
 }
