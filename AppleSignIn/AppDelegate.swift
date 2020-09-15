@@ -2,20 +2,46 @@
 //  AppDelegate.swift
 //  AppleSignIn
 //
-//  Created by Prue Phillips on 16/12/19.
-//  Copyright © 2019 Inspirare Tech. All rights reserved.
+//  Created by Prue Phillips on 15/9/20.
+//  Copyright © 2020 Inspirare Tech. All rights reserved.
 //
 
 import UIKit
 import CoreData
+import AuthenticationServices
+
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
-
-
+    var window: UIWindow?
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+        let hasLoggedIn = UserDefaults.standard.bool(forKey: "hasLoggedIn")
+        let loginProvider = UserDefaults.standard.string(forKey: "loginProvider")
+        if #available(iOS 13.0, *) {
+            if hasLoggedIn {
+                if loginProvider == "apple" {
+                    let appleIDProvider = ASAuthorizationAppleIDProvider()
+                    let userIdentifier = UserDefaults.standard.string(forKey: "id")!
+                    appleIDProvider.getCredentialState(forUserID: userIdentifier) { (credentialState, error) in
+                        switch credentialState {
+                        case .authorized:
+                            print("authorized")
+                            break
+                        case .revoked:
+                            print("revoked")
+                            break
+                        case .notFound:
+                            print("not found")
+                            break
+                        default:
+                            break
+                        }
+                    }
+                }
+            
+            }
+        }
         return true
     }
 
