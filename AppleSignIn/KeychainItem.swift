@@ -205,25 +205,4 @@ struct KeychainItem {
         
         return password
     }
-    
-    static var currentUserIdentifier: String {
-        do {
-            // won't work because userdefaults is empty on launch from fresh
-            // get id from keychain instead
-            let storedIdentifier = try KeychainItem(service: "tech.inspirare.AppleSignIn", account: UserDefaults.standard.string(forKey: "id")!).readItem()
-            return storedIdentifier
-        }
-        catch {
-            return ""
-        }
-    }
-    
-    static func deleteUserIdentifierFromKeychain() {
-        do {
-            try KeychainItem(service: "tech.inspirare.AppleSignIn", account: UserDefaults.standard.string(forKey: "id")!).deleteItem()
-        }
-        catch {
-            print("Unable to delete userIdentifier from keychain")
-        }
-    }
 }
